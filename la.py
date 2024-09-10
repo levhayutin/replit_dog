@@ -22,7 +22,8 @@ def draw_dog():
 
     # Draw the nose
     #draw.ellipse((95, 75, 105, 85), fill='purple')
-    draw.ellipse((95, 75, 105, 85), fill='black')
+    draw.ellipse((97, 72, 103, 78), fill='black')#nose
+    draw.line((105, 85, 95, 85), fill='black', width=2)#mouth
 
     # Draw the ears
     #draw.polygon([(70, 60), (80, 50), (85, 70)], fill='yellow')
@@ -35,8 +36,8 @@ def draw_dog():
     #draw.line((150, 130, 180, 110), fill='brown', width=500)
 
     # Draw the legs
-    draw.line((70, 180, 70, 200), fill='brown', width=5)
-    draw.line((130, 180, 130, 200), fill='brown', width=8)
+    draw.line((70, 170, 70, 200), fill='yellow', width=5)
+    draw.line((130, 170, 130, 200), fill='yellow', width=5)
 
     # Save the image
     image.save('dog.png')
